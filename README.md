@@ -9,7 +9,7 @@ The connect four game is a six row by seven column column grid game played by tw
 
 ## Installation
 
-1. Make sure you have Java Development Kit installed. You can download it from [OracleJDKdownload page](OracleJDKdownload page) or [OpenJDK page](openJDK page).
+1. Make sure you have Java Development Kit installed. You can download it from [OracleJDKdownload page] or [OpenJDK page].
 
 2. Clone or download this repository.
 
