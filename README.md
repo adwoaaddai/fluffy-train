@@ -1,77 +1,163 @@
-<header>
-# Project Name
+# Connect Four
+
 ---
+
 ## Description
-A brief explanation of what this project does and why it exists.
+
+The connect four game is a six row by seven column column grid game played by two people, with each player having a piece that represents their moves. The game is won when the same pieces are aligned either horizontally, vertically, or diagonally. This java program follows the rules of the connect four program and allows user to make moves on the grid by asking and validating their input.
+
+  
 
 ## Table of Contents
+
 - [Installation](#installation)
-- [Usage](#usage)
+
+- [Input](#input)
+
+- [Output](#Output)
+
 - [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Contributing](#contributing)
+
+- [Technology Used](#technologies-used)
+
 - [License](#license)
+
 - [Contact](#contact)
 
+  
+
 ## Installation
+
 1. Clone the repository:
-   ```sh
-   git clone https://github.com/yourusername/project-name.git
-	```
-
-2. Navigate to the project directory:
-    
-    ```sh
-    cd project-name
-    ```
-    
-3. Install dependencies (if applicable):
-    
-    ```sh
-    pip install -r requirements.txt  # For Python
-    npm install  # For Node.js
-    ```
-    
-
-## Usage
-
-Run the program with:
 
 ```sh
-python main.py  # Python
-./run.sh        # Shell script
-node index.js   # JavaScript
+
+git clone https://github.com/yourusername/project-name.git
+
 ```
+
+  
+
+1. Navigate to the project directory:
+
+```sh
+
+cd project-name
+
+```
+
+1. Install dependencies (if applicable):
+
+```sh
+
+pip install -r requirements.txt # For Python
+
+npm install # For Node.js
+
+```
+
+  
+
+## Input
+
+  The Scanner class is imported to read user input
+
+```java
+import java.util.Scanner;
+
+Scanner scnr = new Scanner(System.in);
+int positon
+```
+
+### OUTPUT
+
+```
+Welcome to Connect Four!
+
+  
+
+0 1 2 3 4 5 6
+
+---------------
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+| | | | | | | |
+
+---------------
+
+Player X enter a number(0-6):
+
+```
+
+  
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+  
+
+- importation of the Scanner class and the InputMismatchException class
+```java
+import java.util.Scanner;
+import java.util.InputMismatchException;
+```
+
+- Creation of methods
+```java
+public void displayBoard() {}
+public ConnectFour() {}
+public boolean makeMove(int column) {}
+public boolean checkWinner() {}
+public boolean isBoardFull() {}
+public char switchPlayer() {}
+
+```
+
+- Conditional statements, Loops, Arrays and try and catch blocks
+```java
+if(......) {
+
+}
+while (......) {}
+public char[][] board;
+try {
+	.........
+}
+catch (InputMismatchException e){
+	e.printStackTrace();
+}
+```
+
+  
 
 ## Technologies Used
 
-- Python 3.10
-- Flask
-- PostgreSQL
-- Docker
+  
 
-## Contributing
-
-Contributions are welcome! Follow these steps:
-
-4. Fork the repo
-5. Create a new branch (`git checkout -b feature-name`)
-6. Commit your changes (`git commit -m "Added feature"`)
-7. Push to the branch (`git push origin feature-name`)
-8. Open a Pull Request
+- Java Development Kit
+  
+  
 
 ## License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+  
+
+This project is licensed under the MIT [License] - see the LICENSE file for details.
+
+  
 
 ## Contact
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- Email: [your.email@example.com](mailto:your.email@example.com)
+  
 
+- GitHub: [@adwoaaddai](https://github.com/adwoaaddai)
+
+- Email: [addaia@g.cofc.edu]
