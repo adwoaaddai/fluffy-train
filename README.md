@@ -16,8 +16,9 @@ The connect four game is a six row by seven column column grid game played by tw
 
 2. Clone or download this repository.
    You can download this repository to your local computer.
+   git clone https://github.com/adwoaaddai/connect-four.git
 
-3. Run the `ConnectFour.java`
+4. Run the `ConnectFour.java`
    ```bash
    cd path/to/connect-four
    ```
