@@ -16,18 +16,15 @@ The connect four game is a six row by seven column column grid game played by tw
 
 2. Clone or download this repository.
    You can download this repository to your local computer.
-   git clone https://github.com/adwoaaddai/connect-four.git
+   git clone https://github.com/fluffy-train/connect-four.git
 
-4. Run the `ConnectFour.java`
+4. Run the `ConnectFour.java` program
    ```bash
    cd path/to/connect-four
-   ```
-   ```bash
    javac ConnectFour.java
+    java ConnectFour
    ```
-   ```bash
-   java ConnectFour
-   ```
+   
 
   
 ## Input
@@ -38,7 +35,7 @@ The connect four game is a six row by seven column column grid game played by tw
 import java.util.Scanner;
 
 Scanner scnr = new Scanner(System.in);
-int position;
+int position = scnr.nextInt();
 ```
 
 ### OUTPUT
@@ -132,7 +129,7 @@ catch (InputMismatchException e){
 
 ## Author
 
-- Adwoa Addai
+- **Adwoa Addai**
 - Email: [addaia@g.cofc.edu]
   
   
