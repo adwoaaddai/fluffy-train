@@ -55,7 +55,7 @@ Player X enter a number(0-6):
 
   
 
-- importation of the Scanner class and the InputMismatchException class
+- The Scanner class and the InputMismatchException class
 ```java
 import java.util.Scanner;
 import java.util.InputMismatchException;
