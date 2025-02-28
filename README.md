@@ -22,7 +22,7 @@ The connect four game is a six row by seven column column grid game played by tw
 import java.util.Scanner;
 
 Scanner scnr = new Scanner(System.in);
-int positon
+int positon;
 ```
 
 ### OUTPUT
@@ -69,12 +69,24 @@ import java.util.InputMismatchException;
 
 - Creation of methods
 ```java
-public void displayBoard() {}
-public ConnectFour() {}
-public boolean makeMove(int column) {}
-public boolean checkWinner() {}
-public boolean isBoardFull() {}
-public char switchPlayer() {}
+public void displayBoard() {
+	...
+}
+public ConnectFour() {
+	...
+}
+public boolean makeMove(int column) {
+	...
+}
+public boolean checkWinner() {
+	...
+}
+public boolean isBoardFull() {
+	...
+}
+public char switchPlayer() {
+	...
+}
 
 ```
 
