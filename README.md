@@ -101,7 +101,7 @@ try {
 	.........
 }
 catch (InputMismatchException e){
-	System.out.prinln("Enter a valid data type(number)!");
+	System.out.println("Enter a valid data type(number)!");
 }
 ```
 
