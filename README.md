@@ -82,7 +82,7 @@ try {
 	.........
 }
 catch (InputMismatchException e){
-	e.printStackTrace();
+	System.out.prinln("Enter a valid data type(number)!");
 }
 ```
 
