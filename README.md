@@ -18,11 +18,11 @@ The connect four game is a six row by seven column column grid game played by tw
    You can download this repository to your local computer.
    git clone https://github.com/fluffy-train/connect-four.git
 
-4. Run the `ConnectFour.java` program
+4. Run the `ConnectFour.java` program using the following commands
    ```bash
    cd path/to/connect-four
    javac ConnectFour.java
-    java ConnectFour
+   java ConnectFour
    ```
    
 
