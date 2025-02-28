@@ -21,6 +21,7 @@ int positon
 
 ### OUTPUT
 
+This is how the program is displayed on the console
 ```
 Welcome to Connect Four!
 
