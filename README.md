@@ -19,7 +19,12 @@ The connect four game is a six row by seven column column grid game played by tw
 
 3. Run the `ConnectFour.java`
    ```bash
+   cd path/to/connect-four
+   ```
+   ```bash
    javac ConnectFour.java
+   ```
+   ```bash
    java ConnectFour
    ```
 
