@@ -2,62 +2,12 @@
 
 ---
 
-## Description
+## Overview
 
 The connect four game is a six row by seven column column grid game played by two people, with each player having a piece that represents their moves. The game is won when the same pieces are aligned either horizontally, vertically, or diagonally. This java program follows the rules of the connect four program and allows user to make moves on the grid by asking and validating their input.
 
-  
-
-## Table of Contents
-
-- [Installation](#installation)
-
-- [Input](#input)
-
-- [Output](#Output)
-
-- [Features](#features)
-
-- [Technology Used](#technologies-used)
-
-- [License](#license)
-
-- [Contact](#contact)
 
   
-
-## Installation
-
-1. Clone the repository:
-
-```sh
-
-git clone https://github.com/yourusername/project-name.git
-
-```
-
-  
-
-1. Navigate to the project directory:
-
-```sh
-
-cd project-name
-
-```
-
-1. Install dependencies (if applicable):
-
-```sh
-
-pip install -r requirements.txt # For Python
-
-npm install # For Node.js
-
-```
-
-  
-
 ## Input
 
   The Scanner class is imported to read user input
@@ -138,11 +88,17 @@ catch (InputMismatchException e){
 
   
 
-## Technologies Used
+## Technology Used
 
   
 
 - Java Development Kit
+
+
+## Author
+
+- Adwoa Addai
+- Email: [addaia@g.cofc.edu]
   
   
 
@@ -154,10 +110,4 @@ This project is licensed under the MIT [License] - see the LICENSE file for deta
 
   
 
-## Contact
 
-  
-
-- GitHub: [@adwoaaddai](https://github.com/adwoaaddai)
-
-- Email: [addaia@g.cofc.edu]
