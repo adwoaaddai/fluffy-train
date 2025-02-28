@@ -22,7 +22,7 @@ The connect four game is a six row by seven column column grid game played by tw
 import java.util.Scanner;
 
 Scanner scnr = new Scanner(System.in);
-int positon;
+int position;
 ```
 
 ### OUTPUT
